@@ -32,6 +32,6 @@ similarityMat <- createSimilarityMatrix(binnedMSP)
 createLinkMatrix(similarityMatrix = similarityMat, threshold = 0.5)
 }
 \author{
-Thomas Naake, \email{naake@stud.uni-heidelberg.de}
+Thomas Naake, \email{thomasnaake@googlemail.com}
 }
 

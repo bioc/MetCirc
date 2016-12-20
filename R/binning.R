@@ -8,7 +8,7 @@
 #' @details Internal use to retrieve indices when fragments start and end. 
 #' @return getBegEndIndMSP returns a list of length 2 where the first entry
 #' contains the start indices and the second the end indices
-#' @author Thomas Naake, \email{naake@@stud.uni-heidelberg.de}
+#' @author Thomas Naake, \email{thomasnaake@@googlemail.com}
 #' @examples 
 #' data("sd02_deconvoluted", package = "MetCirc")
 #' finalMSP <- convert2MSP(sd02_deconvoluted, split = " _ ", 
@@ -48,7 +48,7 @@ getBegEndIndMSP <- function(msp) {
 #' @return binning returns a matrix where rownames are precursor ions
 #' (m/z / retention time) and colnames are newly calculated m/z values which 
 #' were binned. 
-#' @author Thomas Naake, \email{naake@@stud.uni-heidelberg.de}
+#' @author Thomas Naake, \email{thomasnaake@@googlemail.com}
 #' @examples data("idMSMStoMSP", package = "MetCirc")
 #' ##group <- sample(c("yl", "ol", "s","r"), size = length(finalMSP), replace=TRUE) 
 #' binning(msp = finalMSP, tol = 0.01, group = NULL, method = "median")
